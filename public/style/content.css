@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+
+    width: 80%;
+    margin-left: 10%;
+}
+/* Carousel*/
+
+
+.my-carousel {
+    padding: 0;
+    height: 650px;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.carousel-inner{
+    height: 650px;
+    width: 1600px;
+}
+
+.my-carousel .carousel-item{
+
+    max-height: 650px;
+}
+.my-carousel .carousel-item img {
+    object-fit: cover;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    text-shadow: 1px 1px 10px #000;
+}
+
+
+hr:not([size]) {
+    height: 1px;
+}
+.featurette-divider {
+    margin: 3rem 0;
+}
+.featurette-heading h2{
+    font-size: 40px;
+}
+.bg-light {
+    background-color: #fff3cd;
+}

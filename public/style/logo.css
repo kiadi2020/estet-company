@@ -1,0 +1,9 @@
+.logotype {
+    perspective: 1000px;
+    position: relative;
+    margin-left: 120px;
+    width: 60px;
+    height: 50px;
+    transform-style: preserve-3d;
+
+}
